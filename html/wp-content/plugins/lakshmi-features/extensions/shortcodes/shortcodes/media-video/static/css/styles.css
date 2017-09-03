@@ -1,0 +1,82 @@
+#lsi-video-image {
+    margin: 10px 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#lsi-video-image .lsi-video-image-holder {
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#lsi-video-image:hover .lsi-video-image-holder:before {
+    opacity: 1;
+    filter: alpha(opacity=1);
+    margin-top: 0;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+#lsi-video-image .lsi-video-image-holder:before {
+    background-color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    content: '\f04b';
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: -42px auto 0 !important;
+    top: 50%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    -webkit-transform: scale(0,0);
+    transform: scale(0,0);
+    z-index: 3;
+}
+
+#lsi-video-image:hover .lsi-video-image-holder:after {
+    opacity: 0.2;
+}
+
+#lsi-video-image .lsi-video-image-holder:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#lsi-the-lakshmi-video {
+    margin: 10px 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#lsi-the-lakshmi-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

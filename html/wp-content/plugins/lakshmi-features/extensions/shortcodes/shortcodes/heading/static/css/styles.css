@@ -1,0 +1,124 @@
+.lsi-heading .h {
+    position: relative;
+    margin: 0;
+    text-align:center;
+}
+
+.lsi-heading-with-icon h1 {
+    padding: 0 100px;
+}
+
+.lsi-heading-with-icon h2 {
+    padding: 0 75px;
+}
+
+.lsi-heading-with-icon h3 {
+    padding: 0 70px;
+}
+
+.lsi-heading-with-icon h4 {
+    padding: 0 50px;
+}
+
+.lsi-heading-with-icon h5 {
+    padding: 0 40px;
+}
+
+.lsi-heading-with-icon h6 {
+    padding: 0px 25px;
+}
+
+.lsi-heading-holder {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.lsi-heading-holder-h1,
+.lsi-heading-holder-h2,
+.lsi-heading-holder-h3 {
+    margin: 20px 0;
+}
+
+.lsi-heading-holder-h4,
+.lsi-heading-holder-h5,
+.lsi-heading-holder-h6 {
+    margin: 0 0 10px;
+}
+
+.lsi-heading-icon {
+    position: absolute;
+    bottom: 5px;
+}
+
+.lsi-heading-icon-left {
+    left: 0;
+}
+
+.lsi-heading-icon-right {
+    right: 0;
+}
+
+@media (max-width: 767px) {
+    .lsi-heading-with-icon h1 {
+        padding: 0 75px;
+    }
+
+    .lsi-heading-with-icon h2 {
+       padding: 0 60px;
+    }
+
+    .lsi-heading-with-icon h3 {
+        padding: 0 50px;
+    }
+
+    .lsi-heading-with-icon h4 {
+        padding: 0 40px;
+    }
+
+    .lsi-heading-with-icon h5 {
+        padding: 0 30px;
+    }
+
+    .lsi-heading-with-icon h6 {
+       padding: 0px 25px;
+    }
+
+    .lsi-heading-holder-h1,
+	.lsi-heading-holder-h2,
+	.lsi-heading-holder-h3 {
+        padding: 30px 0;
+    }
+
+    .lsi-heading-holder-h4,
+	.lsi-heading-holder-h5,
+	.lsi-heading-holder-h6 {
+        padding: 10px 0;
+    };
+}
+
+@media (max-width: 420px) {
+
+    .lsi-heading h1 .lsi-heading-icon {
+        display: none;
+    }
+
+    .lsi-heading h2 .lsi-heading-icon {
+        display: none;
+    }
+
+    .lsi-heading h3 .lsi-heading-icon {
+        display: none;
+    }
+
+    .lsi-heading-with-icon h1 {
+        padding: 0 10px;
+    }
+
+    .lsi-heading-with-icon h2 {
+        padding: 0 10px;
+    }
+
+    .lsi-heading-with-icon h3 {
+        padding: 0 10px;
+    };
+}

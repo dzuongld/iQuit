@@ -1,0 +1,74 @@
+#lsi-owl-quote .lsi-quote-item {
+    margin: 30px auto;
+	padding: 0 30px;
+    text-align: center;
+    max-width: 900px;
+}
+
+#lsi-owl-quote .lsi-quote-content {
+    position: relative;
+	padding: 20px 0;
+}
+
+#lsi-owl-quote .lsi-quote-content:before {
+	content: '“';
+    font-size: 50px;
+    line-height: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+
+#lsi-owl-quote .lsi-quote-author {
+	text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#lsi-owl-quote .lsi-quote-author h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#lsi-owl-quote .lsi-quote-image {
+    display: inline-block;
+	position: relative;
+    vertical-align: middle;
+    width: 105px;
+    height: 105px;
+	margin: 0 20px 20px 0;
+    padding: 15px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#lsi-owl-quote .lsi-quote-image img {
+    position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#lsi-owl-quote .lsi-quote-author-image {
+    border-radius: 100%;
+    border: 1px solid;
+	width: 75px;
+	height: 75px;
+	position: relative;
+    z-index: 3;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+#lsi-owl-quote:hover .owl-prev {
+    left: 0;
+}
+
+#lsi-owl-quote:hover .owl-next {
+    right: 0;
+}

@@ -1,0 +1,47 @@
+.lsi-cta-col {
+	height: 300px;
+    padding: 10px;
+}
+
+.lsi-cta-cover i {
+	margin-top: 70px;
+    font-size: 75px;
+	line-height: 1 !important;
+}
+
+.lsi-cta-cover h2 {
+	text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.lsi-cta-hover h3 {
+	max-height: 44px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.lsi-cta-hover p {
+	max-height: 112px;
+    overflow: hidden;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 1600px) {
+	#lsi-cta {
+		max-width: 1600px;
+	}
+}
+
+@media (max-width: 1367px) {
+	#lsi-cta {
+		max-width: 1367px;
+	}
+}
+
+.lsi-cta-more {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
