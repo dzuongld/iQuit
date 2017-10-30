@@ -1,0 +1,47 @@
+
+/*--------------------------WIDGETS------------------------------------*/
+
+
+/*MEDIA PICKER Remove BUTTON*/
+i.fa.fa-times.media-picker-remove {position: absolute;margin-top: 0px;margin-left: 5px;color: #E48E8E;padding: 4px;width: 17px;height: 17px;text-align: center;cursor: pointer;opacity:.8;right: 20px; background-image: url(ico-delete.png);background-repeat: no-repeat;}
+i.fa.fa-times.media-picker-remove:hover{ opacity:1;}
+a.media-picker-button.button {display: block; max-width: 100px;}
+.widget_input_wrap {margin: 15px 0;}
+img.media-picker-preview { max-width: 100%!important; height: auto;}
+
+.icon-color{  padding-bottom: 20px;}
+
+/*BLOCKS WIDGETS*/
+.accordion_unicon {
+	margin-top: 25px;
+margin-bottom: 20px;
+}
+.accordion_unicon h4 {
+   border: 1px solid #eee;
+margin: 0px;
+padding: 15px;
+background-color: #f5f5f5;cursor:pointer;
+}
+
+.accordion_unicon h4:before{content: "+ "; }
+.accordion_unicon h4.current {
+   background-color: #f1f1f1;
+}
+
+.accordion_unicon h4.current:before {content: "- ";}
+.accordion_unicon div.pane_unicon {
+    padding:5px 10px;
+	 border: 1px solid #eee;
+	 display: none;
+}
+
+.ocdi__gl-item {
+    width: calc(25% - 30px);
+    margin: 0 30px 30px 0;
+}
+@media screen and (max-width: 782px)
+{
+.ocdi__gl-item {
+    width: 50% ;
+    margin: 0 30px 30px 0;
+}}
